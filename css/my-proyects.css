@@ -1,0 +1,33 @@
+.my-proyects h3{
+    font:var(--body2) ;
+
+}
+
+.my-proyects h3 span:first-child{
+    font: var(--headLine5);
+    
+    
+}
+
+.my-proyects h3 {
+    text-align: center;
+}
+
+.my-proyects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 133px;
+    gap: 24px;
+    
+    
+}
+
+.my-proyects h3 a{
+    width: 80px;
+    height: 80px;
+}
+
+
+

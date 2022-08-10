@@ -1,0 +1,23 @@
+.menu {
+    display: none; /*Ocultarlo en mobile y solo mostrarlo cuando se active el mediaquerie*/
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.menu ul a {
+    text-decoration: none;
+    color: var(--white);
+    font: var(--button);
+    text-transform: uppercase;
+}
+.menu ul a.menu__list--first {
+    color: var(--purple);
+}
+
+@media screen and (min-width: 768px) {
+    .menu {
+        display: block;
+    }
+}
